@@ -39,6 +39,8 @@ import { SidebarLogoComponent } from './layout/sidebar-logo.component';
 import { SidebarUserPanelComponent } from './layout/sidebar-user-panel.component';
 import { SidebarMenuComponent } from './layout/sidebar-menu.component';
 import { ProjeComponent } from './proje/proje.component';
+import { GorevComponent } from './gorev/gorev.component';
+import { MusteriComponent } from './musteri/musteri.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +72,8 @@ import { ProjeComponent } from './proje/proje.component';
     SidebarUserPanelComponent,
     SidebarMenuComponent,
     ProjeComponent,
+    GorevComponent,
+    MusteriComponent,
   ],
   imports: [
     CommonModule,
